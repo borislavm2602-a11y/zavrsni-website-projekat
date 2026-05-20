@@ -1,0 +1,12 @@
+-footer mora biti na dnu stranicu, dodeliti mu fiksnu visinu u odnosu na visinu ekrana
+-velicinu slova povecati
+-dodati boju headeru
+-promeniti font i paletu boja
+-na pocetnoj strani mora stojati jasna defincija naseg cilja za pravljenje sajta, a u okviru o nama dodati detaljniji opis
+-prva stavka na meniju mora biti pocetna, kontakt neka bude poslednja stranica
+-ne moram da imam stranicu o nama, sve uokviru o nama staviti na pocetnoj
+-smem staviti slike partnera u okviru tabele
+-skloniti border
+-staviti sve ovo na google drive
+
+-zavrsiti jos osnovnih funkcionalnosti i optimizaciju

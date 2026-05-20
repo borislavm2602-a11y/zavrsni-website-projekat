@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/estetika.css" />
+    <link href="https://fonts.cdnfonts.com/css/comics" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                @import url('https://fonts.cdnfonts.com/css/comics');
+                </style>
+                
+  </head>
+  <body>
+   
+    <header class="zaglavlje">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="assets/slike/CRTOMANIJA-LOGO.png"
+            alt=""
+            height="180"
+            sizes="(max-width: 575px) 50vw, (min-width: 576px) and (max-width: 1024px) 25vw, (min-width: 1025px) 25vw, 100vw"
+            width="320"
+        /></a>
+        <div class="ostatak headera">
+          <div class="PROMENI-BOJU">
+        <button id="boja" onclick="changeColor();">promeni boju</button>
+        </div>
+      </div>
+      </div>
+      
+     
+      <nav class="nav-meni">
+        <ul class="navig">
+          <li><a href="index.html">POCETNA</a></li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
+          <li><a href="klijenti.html">KLIJENTI</a></li>
+          <li><a href="partnerstvo.html">PARTNERSTVO</a></li>
+        </ul>
+      </nav>
+   
+    </header>
+ <main style="display: flexbox; text-align: center; align-items: center;">
+  <div class="tekst">
+    <h1 class="dragi-posetioci">DRAGI POSETIOCI</h1>
+    <p style="display: flex; text-align: center;">
+      dobro dosli na novu platformu crtomaniju, <br />
+televiziju posvecenu najboljim sinhronizacijama fenomenalnih, kreativnih i
+      mastovitih crtanih i anime filmova i serija
+    </p>
+    <p>Uzivacete sa nezaboravnim kultnim klasicima, kao i najnovijim svetskim hitovima<p>
+    </div>
+     <h2>neki od nasih naslova</h2>
+     <button class="dugme-nestanak" id="dugme-pocetna" onclick="show()">PRIKAZI</button>
+     <br>
+    <div class="Lista" id="lista-naslova" style="display:none;">
+     
+      <div class="naslovi-slike">
+      <div class="prvi-red">
+        <a href="https://www.imdb.com/title/tt0053488/"
+          ><img class="thumbnail"
+            src="assets/slike/slike za naslovnu/Looney Tunes (1929).png"
+            height="180"
+            sizes="(max-width: 575px)"
+        /></a>
+        <a href="https://www.imdb.com/title/tt37522729/"
+          ><img class="thumbnail"
+            src="assets/slike/slike za naslovnu/Tom and Jerry- The Movie (1992).jpeg"
+            height="180"
+            sizes="(max-width: 575px)"
+        /></a>
+        <a href="https://www.imdb.com/title/tt0024461/"
+          ><img class="thumbnail"
+            src="assets/slike/slike za naslovnu/Popeye the Sailor (1960).jpeg" 
+            height="180"
+            sizes="(max-width: 575px)"
+        /></a>
+        <a href="https://www.imdb.com/title/tt0184175/"
+          ><img class="thumbnail"
+            src="assets/slike/slike za naslovnu/pera detlic.webp" 
+            height="180"
+            sizes="(max-width: 575px)"
+        /></a>
+      </div>
+      <div class="2.red">
+        <a href="https://www.imdb.com/title/tt0063939/"
+          ><img class="thumbnail"
+            src="assets/slike/slike za naslovnu/pink panter.webp" 
+            height="180"
+            sizes="(max-width: 575px)"
+        /></a>
+        <a href="https://www.imdb.com/title/tt30761494/"
+          ><img class="thumbnail"
+            src="assets/slike/slike za naslovnu/Mickey Mouse Works (1999).jpg"
+            height="180"
+            sizes="(max-width: 575px)"
+        /></a>
+        <a href="https://www.imdb.com/title/tt0074053/"
+          ><img class="thumbnail"
+            src="assets/slike/slike za naslovnu/Scooby-Doo, Where Are You! (1969).png"
+            height="180"
+            sizes="(max-width: 575px)"
+        /></a>
+        <a href="https://www.imdb.com/title/tt0131598/"
+          ><img class="thumbnail"
+            src="assets/slike/slike za naslovnu/sport billy.webp"
+            height="180"
+            sizes="(max-width: 575px)"
+        /></a>
+      </div>
+      <form action="naslovi.html">
+<button>cela lista naslova</button>
+</form>
+    </div>
+    </main>
+    <footer>
+      <p>© 2026 CRTOMANIJA LIMITED<br /></p>
+    </footer>
+    <script src="skript.js"></script>
+<script>
+function changeColor() {
+  document.body.style.background = "linear-gradient(#4216a9, #591313, #164fd3)";
+}
+</script>
+<script>
+  window.onresize = function(e){
+  console.log(e.currentTarget.devicePixelRatio)
+  // 0.5 is equal to 50%
+  // 1 to 100%
+  // 2 to 200%
+  // so on and so forth
+}
+</script>
+  </body>
+</html>
